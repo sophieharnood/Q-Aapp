@@ -23,6 +23,8 @@ struct ContentView: View {
                        answeredBlack = ""
                        answeredPurple = ""
                    } // closing button
+                   .buttonStyle(.borderedProminent)
+                   
                }// closing 1st h stack
                Spacer()
                    .frame(height:100)
@@ -32,6 +34,7 @@ struct ContentView: View {
                        answeredBlack = ""
                        answeredGreen = ""
                    } // closing button
+                   .buttonStyle(.borderedProminent)
                    Spacer()
                        .frame(width: 150)
                    Button("Black") {
@@ -39,6 +42,7 @@ struct ContentView: View {
                        answeredPurple = ""
                        answeredGreen = ""
                    }
+                   .buttonStyle(.borderedProminent)
                } // closing second h stack
                .multilineTextAlignment(.center)
                 
